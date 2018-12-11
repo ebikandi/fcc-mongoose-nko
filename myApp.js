@@ -6,7 +6,6 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-console.log("neure URI" + process.env.MONGO_URI);
 /** # MONGOOSE SETUP #
 /*  ================== */
 /** 1) Install & Set up mongoose */
