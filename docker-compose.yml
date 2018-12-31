@@ -4,7 +4,7 @@
 version: '3'
 services:
   web:
-    image: fcc-mongoose-nko
+    image: ebikandi001/fcc-mongoose-nko
     deploy:
       replicas: 5
       resources:
